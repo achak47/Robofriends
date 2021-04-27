@@ -3,6 +3,7 @@ import './index.css';
 import Cardlist from './Cardlist' ;
 import Search from './Search' ;
 import Scroll from './Scroll' ;
+import ErrorBoundary from './ErrorBoundary' ;
 class App extends Component{
 constructor() {
   super() 
@@ -27,12 +28,14 @@ render(){
     return <h1>loading...</h1> 
   }else{
    return (
+  <ErrorBoundary>
     <div class='tc'> 
     <Search searchChange={this.onSearch}/>
      <Scroll>
       <Cardlist Robots= {filterrobots} />
      </Scroll>
      </div>
+    </ErrorBoundary>
           ); 
       } 
         }
