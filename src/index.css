@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%) ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+img{
+  height : 200px;
+  width : 200px ;
+}
+@import url(//db.onlinewebfonts.com/c/b593a614952261da06c53a02d1954f44?family=SEGA+LOGO+FONT);
+@font-face {font-family: "SEGA LOGO FONT"; src: url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.eot"); src: url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.woff") format("woff"), url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.svg#SEGA LOGO FONT") format("svg"); }
+h1{
+    font-family: SEGA LOGO FONT ;
+    font-weight: 200;
+    color: #0ccac4 ;
+}
+.colour{
+  color :red ;
+}
